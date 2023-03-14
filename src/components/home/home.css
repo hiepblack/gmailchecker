@@ -210,17 +210,20 @@ input {
 @media screen and (max-width: 768px) {
   .container-home {
     max-width: 768px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top:4rem ;
+    min-height: 750px;
+    padding:1rem 0.25rem;
   }
   h1{
     font-size: 5rem;
   }
- 
+ form{
+  border: 1px solid #111;
+ }
   .overlay-container {
     display: none;
   }
