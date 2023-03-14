@@ -1,0 +1,41 @@
+.card {
+  width: 295px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.card-footer {
+  font-size: 1rem;
+  color: #446;
+  font-weight: 500;
+}
+.card__icon {
+  font-size: 2rem;
+}
+button {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .card p {
+    font-size: 2rem;
+    color: #111 !important;
+    font-weight: 500;
+  }
+  button {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
